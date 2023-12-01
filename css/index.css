@@ -139,11 +139,8 @@ footer{
     color: rgb(229, 229, 231);
     text-align: center;
 }
-@media screen and (max-width: 1200px) {
-  body{
-
-      background-color: #5f3434;
-  }
+@media screen and (max-width: 600px) {
+  
   .leftSection{
     display: flex;
     flex-direction: column;
