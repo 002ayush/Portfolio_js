@@ -180,7 +180,7 @@ footer{
   }
   .vertical-title{
     position: relative;
-    top:16px;
+    top:19px;
     font-size: 18px;
     right: -27px;
     width: 220px;
@@ -188,12 +188,12 @@ footer{
   }
   .vertical-desc{
     position: relative;
-    top:18px;
+    top:21px;
     right: -23px;
     color: gray;
     width: 230px;
   }
-  .footer{
+  footer{
     position: relative;
     bottom:-400px;
   }
