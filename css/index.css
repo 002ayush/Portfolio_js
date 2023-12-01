@@ -194,7 +194,6 @@ footer{
     width: 230px;
   }
   footer{
-    position: relative;
-    bottom:-400px;
+    display: none;
   }
 }
