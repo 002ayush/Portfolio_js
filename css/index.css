@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(9, 9, 45);
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+.left {
+    font-size: 1.6rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23px 0;
+}
+
+.rightSection img {
+    width: 250px;
+    height: 340px;
+    margin: 80px 0;
+    border-radius: 50%;
+}
+
+.leftSection {
+    font-size: 3rem;
+
+}
+
+.purple {
+    color: purple;
+}
+
+#element {
+    color: purple;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.04rem;
+    color: lavender;
+}
+
+main hr {
+
+    height: 1.2px;
+    background: rgb(12, 12, 244);
+    width: 80vw;
+    margin: auto;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 12px;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.secondSection .box {
+    background-color: rgb(237, 93, 93);
+    width: 70vw;
+    height: 2px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 58px;
+}
+
+.secondSection .vertical {
+
+    height: 65px;
+    width: 1px;
+    background-color: white;
+    margin: 0 130px;
+    justify-content: space-around;
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    font-size: 18px;
+    right: 15px;
+    width: 220px;
+}
+.vertical-desc{
+    position: relative;
+    top: 88px;
+    right: 11px;
+    color: gray;
+    width: 220px;
+}
+.leftSection .btn{
+    padding: 12px;
+    background: #1e2167;
+    text-decoration: none;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer{
+    font-size: 20px;
+    color: rgb(229, 229, 231);
+    text-align: center;
+}
+@media screen and (max-width: 2000px) {
+  body{
+
+      background-color: #5f3434;
+  }
+  .leftSection{
+    display: flex;
+    flex-direction: column;
+  }
+  .firstSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .secondSection h1{
+    font-size: 2rem;
+    margin: 22px auto;
+  }
+  .secondSection .box{
+    background-color: rgb(237, 93, 93);
+    width: 70vw;
+    height: 2px;
+    /* justify-content: center; */
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 58px;
+  }
+  .secondSection .vertical{
+    position: relative;
+    display: flex;
+    height: 243px;
+    top:378px;
+    flex-direction: column;
+    width: 1px;
+    background-color: white;
+    margin: 1px 0px;
+   
+  }
+  .vertical-title{
+    position: relative;
+    top:9px;
+    font-size: 18px;
+    right: -27px;
+    width: 220px;
+    margin: 19px 0;
+  }
+  .vertical-desc{
+    position: relative;
+    top:8px;
+    right: -23px;
+    color: gray;
+    width: 230px;
+  }
+  .footer{
+    position: relative;
+    bottom: 0px;
+  }
+}
